@@ -32,7 +32,7 @@
     display: flex;
     justify-content: space-between;
 }
-.bptões{
+.botões{
     display: flex;
 }
 
@@ -52,4 +52,29 @@
 .descrição__titulo-livro{
     color: var(--azul);
     font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descrição__texto{
+    font-size: 14px;
+}
+
+.botões__item{
+    margin: 0 0.5em;
+}
+
+.botõe__ancora{
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    font-weight: 700;
+    color: var(--branco);
+    text-decoration: none;
+}
+
+
+/* segunda parte do card*/
+
+.estrelinhas{
+    padding: 0.5em 0.5em 0.5em 0;
 }

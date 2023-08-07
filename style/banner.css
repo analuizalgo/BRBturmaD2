@@ -1,18 +1,20 @@
 .banner{
     background: var(--azul-degrade);
     color: var(--branco);
-    text-align: center;
+    align-items: center;
     padding: 2.5em 2em;
 }
 
 .banner_titulo{
     font-size: 18px;
     font-weight: 700;
+    text-align: center;
 }
 
 .banner_texto{
     font-weight: 500;
     padding: 1em;
+    text-align: center;
 }
 
 .banner_pesquisa{
